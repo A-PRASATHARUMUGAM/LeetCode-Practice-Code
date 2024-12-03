@@ -17,13 +17,24 @@
 
 
                 // Type - 2 Optimize
-const  sdata="abcacdcdc"
-let set=new Set()
-for( val of sdata ){
-     set.add(val)
+// const  sdata="abcacdcdc"
+// let set=new Set()
+// for( val of sdata ){
+//      set.add(val)
     
-}
+// }
 
-let arr=Array.from(set) 
-console.log(arr.length);
+// let arr=Array.from(set) 
+// // console.log(arr.length);
+
+
+// const fname="prasath";
+
+// for(val of fname ){
+        
+// }
+
+
+
+
 
