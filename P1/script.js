@@ -1,21 +1,21 @@
 
 
-// const arrval=[1,2,3,4];
-// // let a=Number(prompt("Enter the first value "));
-// // let b=Number(prompt("Enter the Second value "));
+const arrval=[1,2,3,4];
+// let a=Number(prompt("Enter the first value "));
+// let b=Number(prompt("Enter the Second value "));
 
-// val1=arrval.indexOf(1) 
-// val2=arrval.indexOf(2) 
+val1=arrval.indexOf(1) 
+val2=arrval.indexOf(2) 
 
 
-// let result=arrval.splice()
-// let sum=0;
-// for( val of result ){
-//     // console.log(val) 
-//         sum+=val
-// }
+let result=arrval.splice()
+let sum=0;
+for( val of result ){
+    // console.log(val) 
+        sum+=val
+}
 
-// console.log(result); 
+console.log(result); 
 
 let numbers = [10, 20, 30, 40, 50]; // Predefined array
 
