@@ -1,19 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function app() {
 
+  const array=["Earn","Grow","Give"]   
+   
+  for(val of array ){
+
+    console.log(val);
+    
+  }
    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>I am Prasath</p>
-<a className="App-link" href="" target="_blank" rel="noopener noreferrer">Hello World I am back</a>
-      </header>
+   <div className="app">
+    <h1>Let's {array} Money</h1>
 
-    </div> 
+   </div>
   );
 }
 
-export default App;
+export default app;
