@@ -1,3 +1,6 @@
+import Header from './Header'; 
+import Content from './Content';
+import Footer from './Footer';
 import './App.css';
 
 function app() {
@@ -21,6 +24,12 @@ setTimeout(() => {
   return (
    <div className="app">
     <h1>Let's {result} Money</h1>
+
+
+    <Header/>
+    <Content/>
+    <Footer/>
+
 
    </div> 
 
