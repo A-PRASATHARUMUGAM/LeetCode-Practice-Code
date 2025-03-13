@@ -1,14 +1,13 @@
-import "./Header.css";
+import React from 'react'
 
-function head(){
-
-
- console.log("header");
- 
+function Header() {
 
 
-
+  return (
+    <div>Header</div>
+  )
 }
 
+export default Header
 
-export default head()  
+

@@ -53,3 +53,13 @@ body{
   text-align: center;
   border: 1px solid black;
 }
+/* content-container */
+
+.content-container{
+  border:1px solid black;
+  font-size:bold;
+  background-color: hotpink;
+  color: white;
+  text-align:center;
+}
+
