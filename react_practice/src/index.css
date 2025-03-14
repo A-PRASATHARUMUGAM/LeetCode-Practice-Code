@@ -6,7 +6,19 @@
 
 body{
   background-color: #24252a;
+  line-height:3;
   color: white;
 }
 
+
+                /* React Syles */
+.style-main-container{
+  border:1px solid white;
+
+}
+.style-main-container > h1{
+  text-align: center;
+  color: yellow;
+  
+}
 
