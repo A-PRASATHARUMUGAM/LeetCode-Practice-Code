@@ -28,7 +28,7 @@ body{
                   /* React Click Event*/
 .react-clickevent-container{
   border:1px solid white;
-  height: 50vh;
+  height: 40vh;
 }
 
 .react-clickevent-container > h1{
