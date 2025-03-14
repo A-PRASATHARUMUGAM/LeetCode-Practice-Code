@@ -1,7 +1,8 @@
+import React_Style from './React_Styles';
+import React_ClickEvent from './React_ClickEvent';
 import Header from './Header'; 
 import Content from './Content';
 import Footer from './Footer';
-import React_Style from './React_Styles';
 
 function app() {
  
@@ -27,6 +28,7 @@ setTimeout(() => {
 
 
     <React_Style/>
+    <React_ClickEvent />
     <Header/>
     <Content/>
     <Footer/>

@@ -11,14 +11,37 @@ body{
 }
 
 
-                /* React Syles */
+                  /* React Syles */
+                
 .style-main-container{
   border:1px solid white;
-
-}
+  height:40vh; 
+} 
+/* Title */
 .style-main-container > h1{
   text-align: center;
   color: yellow;
   
 }
+
+
+                  /* React Click Event*/
+.react-clickevent-container{
+  border:1px solid white;
+  height: 50vh;
+}
+
+.react-clickevent-container > h1{
+  text-align: center;
+  color: yellow; 
+  
+}
+/* Button */
+.react-clickevent-container > button{
+  margin:0 0 0 10px;
+  font-size:20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
 
