@@ -1,6 +1,9 @@
 import React from 'react'
    
 // first - 1
+// can't use class content in Hook 
+// can't use any condition in Hook 
+
 // Hook import to " curley brasses "
 import { useState } from 'react' 
 
