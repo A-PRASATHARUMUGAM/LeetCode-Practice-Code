@@ -1,7 +1,7 @@
 import Header from './Header'; 
 import Content from './Content';
 import Footer from './Footer';
-import './App.css';
+import React_Style from './React_Styles';
 
 function app() {
  
@@ -23,9 +23,10 @@ setTimeout(() => {
   
   return (
    <div className="app">
-    <h1>Let's {result} Money</h1>
+  
 
 
+    <React_Style/>
     <Header/>
     <Content/>
     <Footer/>

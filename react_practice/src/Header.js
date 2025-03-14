@@ -4,7 +4,14 @@ function Header() {
 
 
   return (
-    <div>Header</div>
+    <header className='header-main-container'>
+      
+      <h1 className='header-title'>header h1</h1>
+      
+      
+    
+      
+      </header>
   )
 }
 
