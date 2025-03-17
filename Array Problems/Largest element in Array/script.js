@@ -1,19 +1,20 @@
+let array=[1,2,3,4,5];
 
-const myfunction=(arr)=>{
-
-    let  max=arr[0];
-
-for(i=1;i<arr.length;i++){
- 
-    if(arr[i]<max){
-          max=arr[i]
-    }
- 
-}
-console.log(max);
-
+const myfunction = ()=>{
+let max=array[0]
     
+    for(i=0;i<array.length;i++){
+     
+        if( array[i] > max){ 
+ 
+                max=array[i]
+        } 
+                
+
+    }
+    
+    
+    console.log(max);
 }
 
-
-myfunction([3,3,4,5,6,9])
+myfunction()
