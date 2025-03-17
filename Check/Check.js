@@ -45,11 +45,13 @@
 // })
 
 
-let a=5;
-const b=6;
-var c=7;
+// let a=5;
+// const b=6;
+// var c=7;
 
-console.log(a);
-console.log(b);
-console.log(c);
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
 
