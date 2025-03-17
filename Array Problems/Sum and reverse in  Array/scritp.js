@@ -12,11 +12,29 @@ console.log(sum);
 
 
 
-// Reverse Array 
+// Reverse Array  1
 
 let arr2=[1,2,3,4,5,8];
 
-let reverse=arr.reverse()
+let reverse=arr2.reverse()
 
 console.log(reverse);
 
+
+
+// Reverse Array  2
+
+
+
+let arr3=[1,2,3,4,5,6,7,8]
+
+let result=[];
+
+for(i=arr3.length -1;i>=0;i--){
+
+        result.push(arr3[i])
+
+}
+
+console.log(arr3);
+console.log(result);
