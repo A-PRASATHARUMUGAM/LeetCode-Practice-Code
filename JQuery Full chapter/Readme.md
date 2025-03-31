@@ -1,10 +1,10 @@
            J-QUERY   
                     -- JVL
 
-1. Intro
-2. Setting up JQuery
-3. Using Local file
-4. Basic Syntax of JQuery
+1. Intro                        - F
+2. Setting up JQuery            - F
+3. Using Local file             - F
+4. Basic Syntax of JQuery       - F
 5. Selectors
 6. DOM Manuplication 
 7. Event Handling

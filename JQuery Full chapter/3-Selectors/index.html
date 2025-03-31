@@ -8,6 +8,106 @@
 </head>
 <body>
     <h1>Selector in JQuery</h1>
+
+    <!-- ID Selector -->
+    <p id="id-selector">ID Selector</p>
+
+
+    <!-- Class Selector -->
+    <p class="class-selector">Class Selector</p>
+
+    <!-- Element Selector -->
+    <b class="element-selector">Element Selector</b>
+
+    <!-- Attribute Selector  -->
+     <form action="">
+        <input type="text" placeholder="Attribute Selector">
+     </form>
+
+    <!-- Value Selector  -->
+      <div>
+        <input type="text" placeholder="Value Selector" name="username" >
+      </div>
+
+    <!-- Partial Value Selector -->
+     <div>
+        <a href="https://www.google.com"> Partial Value Selector</a> <br>
+        <a href="https://www.google.com"> Partial Value Selector</a> 
+    </div>
+
+    <!-- Staring Value Selector -->
+     <div>
+        <a href="https://www.example.com">Staring value selector </a> <br>
+        <a href="https://www.example.com">Staring value selector </a>
+    </div>
+
+    <!-- Descendant Selector -->
+     <div class="descendant-container">
+            <p>Descendant Selector </p>
+            <p>Descendant Selector </p>
+            <p>Descendant Selector </p>
+    </div>
+
+    <!-- Child Selector -->
+     <div class="child-container">
+            <p>Direct Child </p>
+            <div>
+                <p>Not a Direct Child </p>
+            </div>
+
+    </div>
+
+
+
+
+
+    <!-- ----------------------------------------------- -->
+
+    <script>
+
+        /*
+        
+      
+             --  Action Functions ---
+             
+            .text()  -  Add the text
+            .hide()  -  Hidden the tag
+            .css()   -  Style
+            .val()   -  Default value
+        
+        */
+
+
+        // ID Selector
+        $('#id-selector').text("it is ID Selector ");
+
+        // Class Selector 
+        $('.class-selector').css("background-color","yellow");
+
+        // Element Selector
+        $('b').hide()   
+
+        // Attribute Selector
+        $('[placeholder]').css("padding","10px");
+
+        // Value Selector
+        $('[name=username]').val(" Value Selector ");   
+
+        // Partial Value Selector 
+        $('a[href*="google"]').css("color","red") 
+
+        // Staring Value Selector  
+        $('a[href^="https://www.e"]').css("color","green");
+
+        // Descendant Selector
+        $('.descendant-container p').css("color","blue"); 
+
+        // Child Selector
+        $('.child-container > p').css("font-weight","bold");
+
+
+
+    </script>
     
 </body>
 </html>
