@@ -3,11 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="../jqueryflie/jquery3.7.1.js"></script>
     <title>DOM Manuplication in JQuery</title>
 </head>
 <body>
 
     <h1>DOM Manuplication in JQuery</h1>
+
+
+<!-- 
     
+        
+     --  Action Functions ---
+    
+    .html()         - Create new Tag 
+    
+    .text()         - Add the text
+    
+    .attr()         - (Attribute name ,Change value name ) - change the attribute
+    
+    .val()          - Set the default value
+    
+    .css()          - Add the style 
+    
+    .hide()         - Hidden the tag
+    
+    .append()       - Add the another Element "Back"
+
+    .prepend()      - Add the another Element "Front"
+
+    .remove()       - Remove the Element
+
+    .addClass()     - Add the class to Element 
+
+    .removeClass()  - Remove the Class to Element
+
+    .toggleClass()  - Add and Remove the class to Element
+
+
+
+-->
+
+    <!-- .html() - create new Tag -->
+    <div class="main-container">
+    </div>
+
+    <!-- .text() - create Text -->
+     <div>
+        <p class="text-para"></p>
+     </div>
+
+    <!-- .attr() - (Attribute name ,Change value name ) - change the attribute -->
+     <div>
+        <img class="attr-img" src="logo.phg" alt="Logo  " >
+      </div>
+
+
+    <!-- .val() - change the value link input -->
+       <div>
+        <input type="text" id="val-input" placeholder="val Fucntion " >
+       </div>
+
+
+
+    <!-- .append () - Add the another Element "Back" -->
+       <div class="append-container">
+            <p>Text - 1</p>
+
+       </div>
+
+    <!-- .prepend()  - Add the another Element "Front" -->
+       <div class="prepend-container">
+            <p>Text - 2</p>
+
+       </div>
+
+
+
+    <!-- .remove()  - Remove the Element -->
+       <div class="remove-container">
+            <p>Remove Text</p>
+
+       </div>
+
+    <!-- .addClass()  - Add the class to Element -->
+       <div class="addclass-container">
+
+            <p>AddClass Function </p>
+
+       </div>
+
+    <!-- .removeClass()  - Remove the class to Element -->
+       <div class="removeclass-container removetheclass ">
+
+            <p >RemoveClass Function </p>
+
+       </div>
+
+
+    <!-- .toggleClass()  - Add and Remove the class to Element -->
+
+                <!-- Already  Add remove class name   -->
+       <div class="toggleclass-container toggletheclass ">
+            <p>ToggleClass Function remove </p>
+       </div>
+                <!--No Class Add the class name  -->
+       <div class="toggleclass-container2  ">
+            <p>ToggleClass Function Add </p>
+       </div>
+
+     <!-- .parent()  - Select parent using "this"  -->
+           <div class="parent-container ">
+
+            <button class="click-btn">Click Me</button>
+
+       </div>
+
+
+<!-- --------------------------------------------------------------------------  -->
+
+    <script>
+
+        // .html()
+        $('.main-container').css("border","1px solid red");
+        $('.main-container').html('<p>Html function</p>');
+
+        // .text()
+        $('.text-para').text("Text Function").css("color","blue");
+
+
+        // .attr()
+        $('.attr-img').attr('alt','Attribute Function');
+
+        //  .val() 
+        $('#val-input').val("Val Fucntion ");
+
+        // .append()
+        $('.append-container').append('<b>append</b>');
+
+
+        // .prepend()
+        $('.prepend-container').prepend('<b>prepend</b>');
+
+        // .remove()
+        $('.remove-container > p').remove(); 
+
+        //addClass
+         $(".addclass-container").addClass('addtheclass');
+
+        // removeClass()
+        $('.removeclass-container').removeClass();
+
+        // toggleClass()
+        $('.toggleclass-container').toggleClass('toggletheclass');  
+        $('.toggleclass-container2').toggleClass('toggletheclass');
+
+        // parent()
+        $('.click-btn').click(function(){
+
+                   let parentElement= $(this).parent();
+                   parentElement.toggleClass('parentclass');
+                         
+                
+        })
+
+        // .css() 
+        $('body').css("line-height",'2');
+
+
+    </script>
 </body>
 </html>
