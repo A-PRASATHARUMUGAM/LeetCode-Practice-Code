@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="../jqueryflie/jquery3.7.1.js"></script>
     <title>Practice JQuery</title>
 </head>
 <body>
 
-    <h1>Hello world </h1>
+    <h1 class="data">Hello world </h1>
+     
+    <button class="btn-click">Click</button>
+
+    <script>
+
+    $('document').ready(function(){
+// add the muliplie css in jquery
+      
+        $('.btn-click').bind('click',add)
+
+
+        
+        function add(){
+
+            $('h1').css({
+                "color":"white",
+                "font-size":"50px",
+                "background-color":"hotpink"
+   
+            })
+            
+
+    
+         
+
+        }
+
+
+        
+    })
+
+
+    </script>
     
 </body>
 </html>
