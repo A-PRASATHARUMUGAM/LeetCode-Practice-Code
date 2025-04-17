@@ -1,9 +1,10 @@
-import React_Style from './React_Styles';
+import React_Style from './React_Styles'; 
 import React_ClickEvent from './React_ClickEvent';
 import React_useStateHook from './React_useStateHook';
 import Header from './Header'; 
 import Content from './Content';
 import Footer from './Footer';
+
 
 function app() {
  
@@ -25,16 +26,12 @@ setTimeout(() => {
   
   return (
    <div className="app">
-  
-
-
     <React_Style/>
     <React_ClickEvent />
     <React_useStateHook />
     <Header/>
     <Content/>
     <Footer/>
-
 
    </div> 
 
