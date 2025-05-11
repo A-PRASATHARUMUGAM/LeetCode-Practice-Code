@@ -1,19 +1,27 @@
 import React from 'react';
+import React_Styles from './React_Styles';
 import Header from './Header'; 
 import Navbar from './Navbar'; 
 
-
 function App() {
 
-  
+  function handlefunction(){
+    let arr=['Earn','Grow','Give'];
+      let result=Math.floor(Math.random()*arr.length);
+      return arr[result] 
+  }
+
+ 
+           
+    
   return (
 
     <div className="App-component ">
-
+ 
 
       <header className="App-header">
 
-        <h1>App Component</h1>
+        <h1> {handlefunction()} Money</h1>
         
       </header>
 
@@ -21,8 +29,9 @@ function App() {
 
 
         <React.StrictMode>
+          <React_Styles />
           <Header/>
-            <Navbar/>
+          <Navbar/>
         </React.StrictMode>
     
     </div>
