@@ -6,6 +6,7 @@
 }
 body{
   background-color: #24252a;
+    color: white;
   line-height:2;
 }
 
@@ -51,4 +52,10 @@ body{
   transition: 0.5s;
   border:none;
   color: white;
+}
+                                              /* React userState  */
+
+.react-usestate p{
+  font-size:20px;
+  color: red;
 }

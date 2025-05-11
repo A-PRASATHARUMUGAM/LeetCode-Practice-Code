@@ -1,17 +1,20 @@
-import React from 'react'; 
+import React, { useState } from 'react'; 
 import React_Styles from './React_Styles';
 import React_clickEvents from './React_clickEvents'; 
 import React_useState from './React_useState';
 
 function App() {
 
-  function handlefunction(){
-    let arr=['Earn','Grow','Give'];
-      let result=Math.floor(Math.random()*arr.length);
-      return arr[result] 
-  }
 
+let [changename,setchangename]=useState("ddd");
+
+ function handleclick(){
+    let arr=['Earn','Grow','Give'];
+    let result=Math.floor(Math.random()*arr.length);
+    let finalresult=arr[result] 
+    setchangename(finalresult) 
  
+ }
            
     
   return (
@@ -21,7 +24,9 @@ function App() {
 
       <header className="App-header ">
 
-        <h1> Practice React to <span>{handlefunction()}</span> Money</h1>
+        <h1> Practice React to <span>{changename}</span> Money</h1>
+
+        <button onClick={handleclick}>Click</button>
         
       </header>
 
