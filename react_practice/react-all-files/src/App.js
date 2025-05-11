@@ -1,7 +1,6 @@
-import React from 'react';
+import React from 'react'; 
 import React_Styles from './React_Styles';
-import Header from './Header'; 
-import Navbar from './Navbar'; 
+import React_ClickEvents from './React_clickEvents'; 
 
 function App() {
 
@@ -19,9 +18,9 @@ function App() {
     <div className="App-component ">
  
 
-      <header className="App-header">
+      <header className="App-header ">
 
-        <h1> {handlefunction()} Money</h1>
+        <h1> Practice React to <span>{handlefunction()}</span> Money</h1>
         
       </header>
 
@@ -29,9 +28,11 @@ function App() {
 
 
         <React.StrictMode>
+
           <React_Styles />
-          <Header/>
-          <Navbar/>
+          <React_ClickEvents/>
+
+
         </React.StrictMode>
     
     </div>

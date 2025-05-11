@@ -8,7 +8,7 @@ import React from 'react'
 
 const React_Styles = () => {
   return (
-      <div className='React-styles' >
+      <div className='React-styles major-style' >
 
 
         <h1>Styles in React</h1>

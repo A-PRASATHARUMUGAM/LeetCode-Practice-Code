@@ -14,33 +14,27 @@ body{
   padding:10px ;
 }
 .App-header {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 191, 255);
   padding:15px ;
 }
+.App-header span{
+  color: white;
+}
                                           /* React Styles */
-.React-styles{
+.major-style{
+  margin: 10px 0;
   border:1px solid yellow;
   height:40vh;
   padding:10px;
 }
-.React-styles h1{
+.major-style h1{
   color: yellow;
   text-align: center;
 }
 .external-style{
-  color: orange;
+  color:hotpink;
 }
 
-
-
-
-.header-component{
-  border: 1px solid white;
-  padding:10px ;
-
-}
-.navbar-component{
-  border: 1px solid white;
-  padding:10px ;
-
-}
-
+                                             /* React ClickEvent */
